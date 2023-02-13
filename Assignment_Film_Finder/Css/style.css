@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a {
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+  }
+  
+  li {
+    text-decoration: none;
+  }
+  
+  label {
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+    padding-right: 30px;
+    padding-left: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #radiobuttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
+  .movie-grid {
+    margin: auto;
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    width: 300px;
+    height: 440px;
+    position: relative;
+    place-items: center;
+    object-fit: cover;
+  }
+  
+  .grid-item img {
+    width: 300px;
+    height: 440px;
+  }
